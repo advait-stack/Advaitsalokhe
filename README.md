@@ -1,1 +1,1 @@
-This is my personal website you would read my essasy and checkout my proects over here alogn with other random stuff 
+This is my personal website you can  read my essasys and checkout my projects over here along  with other random stuff 
