@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advait Salokhe - Portfolio</title>
+  
+  <!-- Link to your new external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Black hole overlay for section transitions -->
+  <div id="blackhole-overlay"></div>
+
+  <!-- Background Elements -->
+  <div class="vortex-bg"></div>
+  <!-- The new, high-performance canvas for interactive particles -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Main Content -->
+  <div class="container" id="mainContainer">
+    <div class="main-content">
+      <h1>Advait Salokhe</h1>
+      <!-- This element will be populated by the typing effect in script.js -->
+      <p class="subtitle" id="subtitle"></p>
+      
+      <!-- About Me Section -->
+      <div class="about-me">
+        <h2>About Me</h2>
+        <p>Generalist. I understand numbers and stories. Interested in science and philosophy, creating solutions for a future I seek to inhabit.</p>
+      </div>
+
+      <!-- Navigation -->
+      <div class="nav-buttons">
+        <button data-section="essays">Essays</button>
+        <button data-section="projects">Projects</button>
+        <button data-section="random">Random Stuff</button>
+      </div>
+
+      <!-- Quote -->
+      <blockquote class="quote">
+        <p>"The future is not a straight line. It is filled with many crossroads. There must be a future that we can choose for ourselves."</p>
+        <cite>— Akira</cite>
+      </blockquote>
+    </div>
+  </div>
+
+  <!-- Section Panel -->
+  <div class="section-panel" id="sectionPanel">
+    <button class="close-btn" id="closeBtn">×</button>
+    <div class="section-content">
+      <h2 id="sectionTitle">Coming Soon</h2>
+      <p class="coming-soon">This section is under development. Check back soon for exciting content!</p>
+    </div>
+  </div>
+
+  <!-- Link to your new external JavaScript file. `defer` ensures it runs after the HTML is parsed. -->
+  <script src="script.js" defer></script>
+</body>
+</html>
